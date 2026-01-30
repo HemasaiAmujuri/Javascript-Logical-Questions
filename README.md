@@ -6,4 +6,5 @@
 5.Highest Occuring character with Tie-Breaker
 6.remove Duplicate Objects in a array
 7.convert object to array
+8.OccuranceOfElementAnArray.
 
