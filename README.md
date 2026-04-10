@@ -8,4 +8,6 @@
 7.convert object to array
 8.OccuranceOfElementAnArray.
 9.FlattenANestedArray
+10.returnObjectByUsingLoop
+11.
 
