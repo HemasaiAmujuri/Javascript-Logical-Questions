@@ -11,4 +11,5 @@
 10.returnObjectByUsingLoop
 11.countPropertiesInObjects
 12.convertArrayToObject
+13.mergeObjects
 
