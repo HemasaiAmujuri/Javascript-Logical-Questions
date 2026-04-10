@@ -12,4 +12,5 @@
 11.countPropertiesInObjects
 12.convertArrayToObject
 13.mergeObjects
+14.checkPropertyExistOrNot
 
