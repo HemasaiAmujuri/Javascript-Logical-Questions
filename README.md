@@ -10,4 +10,5 @@
 9.FlattenANestedArray
 10.returnObjectByUsingLoop
 11.countPropertiesInObjects
+12.convertArrayToObject
 
