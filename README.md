@@ -20,3 +20,4 @@
 19.sumOfValues
 20.updateObjectwithoutmutation
 21.freezeObject.js
+22.freezePropertyInObject
