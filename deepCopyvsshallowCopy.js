@@ -16,6 +16,8 @@ function shallowCopy(user){
     console.log(user1, "user1")
     console.log(user.name);
     console.log(user.address.city)
+    console.log(user.address["city"]);
+    console.log(user["address"]["city"]);
 }
 
 
