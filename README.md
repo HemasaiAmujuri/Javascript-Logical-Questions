@@ -17,3 +17,4 @@
 16.swapKeysandvalues
 17.removeFalsyvalues
 18.compareTwoObjects
+19.sumOfValues
