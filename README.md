@@ -16,3 +16,4 @@
 15.DeepCopyvsSwallowcopy
 16.swapKeysandvalues
 17.removeFalsyvalues
+18.compareTwoObjects
