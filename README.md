@@ -21,3 +21,4 @@
 20.updateObjectwithoutmutation
 21.freezeObject.js
 22.freezePropertyInObject
+23.freezePropertiesInObject
