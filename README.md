@@ -18,3 +18,4 @@
 17.removeFalsyvalues
 18.compareTwoObjects
 19.sumOfValues
+20.updateObjectwithoutmutation
