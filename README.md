@@ -14,3 +14,4 @@
 13.mergeObjects
 14.checkPropertyExistOrNot
 15.DeepCopyvsSwallowcopy
+16.swapKeysandvalues
