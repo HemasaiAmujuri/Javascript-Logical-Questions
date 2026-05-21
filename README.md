@@ -22,3 +22,4 @@
 21.freezeObject.js
 22.freezePropertyInObject
 23.freezePropertiesInObject
+24.filterUserfromArrayofObjects
