@@ -5,7 +5,7 @@ const original = {
 
 const update = {
     ...original,
-    age : 26
+    age : 27
 }
 
 console.log(update)

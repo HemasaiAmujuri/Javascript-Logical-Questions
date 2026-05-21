@@ -24,5 +24,17 @@ function compareTwoObjects(user1,user2){
     return true;
 }
 
+//this approach always not reliable because the order of keys in objects is not guaranteed. When we stringify the objects, the order of keys may differ, leading to a false comparison even if the objects have the same key-value pairs.
+
+//For example, if we have two objects
+//{"name":"Sai","age":25}
+//{"age":25,"name":"Sai"}
+
+//So comparison becomes:
+
+//false
+
+//Using JSON.stringify() is a quick solution for simple objects, but it is not fully reliable because property order matters and functions/undefined values are ignored.
+
 
 console.log(compareTwoObjects(user1,user2));
