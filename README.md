@@ -24,3 +24,4 @@
 23.freezePropertiesInObject
 24.filterUserfromArrayofObjects
 25.closureImplementation
+26.implementCallApplyBind
