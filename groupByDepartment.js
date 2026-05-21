@@ -16,7 +16,7 @@ const employees = [
 const grouped = {}
 
 
-for(let employee of employees){
+for(let employee of employees){  //array of object fpr of loop used
     let dept = employee.department;
     if(!grouped[dept]){
         grouped[dept] = []
