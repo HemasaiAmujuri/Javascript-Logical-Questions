@@ -22,3 +22,35 @@ function removeDuplicates(employees) {
 }
 const uniqueEmployees = removeDuplicates(employees);
 console.log("Unique Employees:", uniqueEmployees);
+
+
+
+//using Set
+const employees = [
+  { id: 1, name: "Alice", email: "alice@example.com" },
+  { id: 2, name: "Bob", email: "bob@example.com" },
+  { id: 1, name: "Alice", email: "alice@example.com" },
+  { id: 3, name: "Charlie", email: "charlie@example.com" },
+  { id: 4, name: "David", email: "david@example.com" }
+];
+
+function removeDuplicates(employees) {
+
+    const seenIds = new Set();
+    const uniqueEmployees = [];
+
+    for (const emp of employees) {
+
+        if (!seenIds.has(emp.id)) {
+
+            seenIds.add(emp.id);
+            uniqueEmployees.push(emp);
+        }
+    }
+
+    return uniqueEmployees;
+}
+
+const uniqueEmployees = removeDuplicates(employees);
+
+console.log(uniqueEmployees);
