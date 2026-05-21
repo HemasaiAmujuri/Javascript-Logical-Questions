@@ -9,6 +9,8 @@ const user = {
     }
 }
 
+//Explanation: Here this refers to the user object because the function is called using user.greet().
+
 
 user.greet(); // Hello Sai
 
@@ -26,6 +28,10 @@ function greetings(user2){
 }
 
 greetings(user2); // Hello undefined from undefined
+
+//Explanation
+
+//PROBLEM:This happens because it is a normal function call. this is not automatically bound to user2.
 
 
 //to prevent this use call
@@ -53,3 +59,6 @@ greetingsFromApply.apply(user2, ["hyderabad"]); // Hello Ravi from Hyderabad
 
 const bind = greetingsFromApply.bind(user2, "hyderabad"); // it will not print anything
 bind(); // Hello Ravi from Hyderabad
+
+
+//We mainly use call, apply, and bind when we want to reuse functions and explicitly control the value of this. bind is especially useful in callbacks and event handlers because it returns a new function with fixed context
