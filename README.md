@@ -25,3 +25,4 @@
 24.filterUserfromArrayofObjects
 25.closureImplementation
 26.implementCallApplyBind
+27.secondHighestSalaryInArrayOfObjects
