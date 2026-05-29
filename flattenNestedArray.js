@@ -1,6 +1,6 @@
                 //Method-1
 function flattenNestedArray(arr) {
-    const singleLevelArray = arr.flat(Infinity);
+    const singleLevelArray = arr.flat(Infinity);  //Infinity is used to ensure the array is fully flattened regardless of how deeply nested it is. It removes the need to manually specify the depth level.
     return singleLevelArray;
 }
 
